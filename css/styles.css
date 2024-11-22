@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  min-height: 100%;
+  height: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: #1b1b1b;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+svg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.lines {
+  opacity: 0;
+}
+
+.line {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #5366e8;
+}
+
+.lights {
+  opacity: 0.65;
+}
+
+.light {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #5366e8;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  z-index: 11;
+}
+
+.content h1 {
+  color: #5366e8;
+  font-size: 90px;
+  position: relative;
+  font-weight: 100;
+  opacity: 0.65;
+}
+
+.content a {
+  padding: 0px 15px 4px 15px;
+  color: #5366e8;
+  font-size: 15.5px;
+  display: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  opacity: 0.85;
+}
+
+.content span {
+  font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.content a:hover {
+  opacity: 0.8;
+}
